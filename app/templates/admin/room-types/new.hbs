@@ -1,0 +1,28 @@
+<h4>Add a new room type</h4>
+
+<form class="room-types">
+  <div class="name">
+    <label for="name">Name</label>
+    {{input type="text" value=name label="Name"}}
+  </div>
+  <div class="short_name">
+    <label for="short_name">Short Name</label>
+    {{input type="text" value=short_name}}
+  </div>
+  <div class="base_price">
+    <label for="base_price">Base Price</label>
+    {{input type="text" value=base_price}}
+  </div>
+  <div class="base_availability">
+    <label for="base_availability">Base Availability</label>
+    {{input type="text" value=base_availability}}
+  </div>
+  <div class="max_occupancy">
+    <label for="max_occupancy">Max Occupancy</label>
+    {{input type="text" value=max_occupancy}}
+  </div>
+
+  <div class="save-button">
+    <button type="button" class="save">Save</button>
+  </div>
+</form>
